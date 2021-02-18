@@ -13,7 +13,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile-dev
+      dockerfile: Dockerfile
     environment:
       MYSQL_USERNAME: app
       MYSQL_PASSWORD: password
